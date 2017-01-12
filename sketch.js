@@ -32,7 +32,7 @@ function draw() {
     }
 
     if (pipes[i].hits(bird)) {
-      resetSektch()
+      resetSketch()
     }
   }
 
@@ -61,7 +61,7 @@ function mousePressed() {
   }
 }
 
-function resetSektch() {
+function resetSketch() {
   bird = new Bird();
   pipes = []
   game = false

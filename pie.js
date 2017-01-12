@@ -46,4 +46,6 @@ function Pipe() {
   this.offscreen = function() {
     return this.x < -this.w
   }
+
+
 }
